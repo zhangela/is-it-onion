@@ -1,13 +1,38 @@
 <head>
-  <title>is-it-onion</title>
+  <title>Is it Onion?</title>
 </head>
 
 <body>
-  {{> hello}}
-</body>
+  <div class="container">
+    <div class="navbar-custom">
+      <h1>Is it Onion?</h1>
+      <p class="lead">Test your skills at telling real from fake!</p>
 
-<template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
-</template>
+      <div>Score: 5/10</div>
+    </div>
+
+    <article class="clearfix">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Car Thief Steals Vehicle To Make Court Date for Auto Theft</h2>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="http://ionenewsone.files.wordpress.com/2014/05/knight.jpg" />
+        </div>
+      </div>
+    </article>
+
+    <div class="actions">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <button class="btn btn-success btn-lg btn-block">Real</button>
+          </div>
+          <div class="col-xs-6">
+            <button class="btn btn-danger btn-lg btn-block">Fake</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
